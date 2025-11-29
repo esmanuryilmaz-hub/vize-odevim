@@ -13,7 +13,7 @@ public class OgrenciBilgi {
         System.out.println("Soyadi Girin");
         String soyad = input.nextLine();
         System.out.println(soyad);
-        System.out.printf("Ad Soyad: %s %s", ad, soyad);
+        System.out.printf("Ad Soyad: %s %s%n", ad, soyad); //Videodaki yan yana yazılma problemi burada %s'in yanına %n koymamamdan kaynaklanıyor. Hatayı düzelttim.
         // int ogrenciNo, yas;
         System.out.println("Yasiniz:");
         int yas = input.nextInt();
